@@ -1,0 +1,30 @@
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(155, 155, 155);
+    border: 5px black;
+    column-rule: 5px solid black;
+}
+.nagykep{
+    width: 500px;
+}
+.kiskep {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 5px;
+    column-rule: 5px solid black;
+}
+.kiskep img{
+    width: 400px;
+}
+.lit{
+    background-color: red;
+    margin-right: 800px
+    
+}
+.lit a{
+    color: white;
+}
+.lit2 a{
+color: red;  
+}
